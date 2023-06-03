@@ -189,11 +189,11 @@ public class BookingsPage {
 	private static void sendConfirmationEmail(String customerEmail, Date date, String time, int numberOfPeople, String reservationName, int tableNumber) {
 	    String to = customerEmail;
 
-	    String from = "mehmetsmsk@outlook.ie";
+	    String from = "enter your email here";
 	    String host = "smtp-mail.outlook.com";
 
-	    String username = "mehmetsmsk@outlook.ie";
-	    String password = "Ardailhan1";
+	    String username = "enter your email here";
+	    String password = "enter your password here";
 	    
 	   //A set of properties are created and configured to connect to the SMTP host
 	    Properties properties = System.getProperties();
